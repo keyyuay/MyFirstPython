@@ -27,3 +27,38 @@ text1 = "cherry"
 text2 = "bomp"
 text3 = text1, text2
 print(text3)
+
+text = "Pythongod\n"
+print(text * 10)
+
+text1 = "yuay"
+text2 = "za"
+print(text1 + text2 + str(678))
+
+age = 18
+print("you are %i years old" % age )
+
+name = "Khunyuay"
+age = 18
+print("My name is %s, I'm %d." % (name, age))
+
+
+name = "Khunyuay"
+age = 18
+print("My name is %-10s, I'm %5d." % (name, age))
+
+name = "Nirantree"
+print("My name is %.4s." %name)
+
+def main():
+    result = adder(11,12)
+def adder(val1, val2):
+    answer = val1 * val2
+    return answer
+main()
+
+print("ABC")
+
+
+
+    
