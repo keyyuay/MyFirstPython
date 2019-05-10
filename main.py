@@ -59,8 +59,39 @@ main()
 
 print("ABC")
 
-president == "clinton"
-if (president == "clinton"):
-    print("kinda")
+call = "1150"
+if (call == "1150"):
+    print("Pizza hut")
+else :
+    print("Pizza company")
 
-    
+num = 0
+while num < 5:
+    print(num)
+    num += 1
+
+print("\n")
+
+for i in "Goddest":
+    print(i)
+
+print("\n")
+
+for i in range(10,20):
+    print(i)
+
+print("\n")
+
+for i in range(100):
+    print(i, end=" key ")
+    if i == 5:
+        break
+
+print("\n")
+
+for i in range(10):
+    if i == 5:
+        continue
+    print(i)
+
+print("\n")
