@@ -59,6 +59,8 @@ main()
 
 print("ABC")
 
-
+president == "clinton"
+if (president == "clinton"):
+    print("kinda")
 
     
