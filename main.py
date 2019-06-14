@@ -94,4 +94,34 @@ for i in range(10):
         continue
     print(i)
 
-print("\n")
+
+
+first_name = "@55_kumamon"
+print(len(first_name))
+
+text = "@55_kumamon"
+print(text[0])
+
+text = "@55_kumamon"
+print(text[0:8])
+
+text = "@55_kumamon"
+print(text[:8])
+
+text = "@55_kumamon"
+print(text[::2])
+
+text = "NiRantrEE"
+print(text.lower())
+
+text = "NiRantrEE"
+print(text.upper())
+
+text = "NiRantrEE"
+print(text.swapcase())
+
+text = "Puppy option"
+print(text.capitalize())
+
+text = "Puppy option"
+print(text.title())
